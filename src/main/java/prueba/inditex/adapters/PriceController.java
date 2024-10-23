@@ -20,7 +20,6 @@ public class PriceController {
     private final PriceService priceService;
     private final PriceMapper mapper;
 
-    @Autowired
     public PriceController(PriceService priceService, PriceMapper mapper) {
         this.priceService = priceService;
         this.mapper = mapper;

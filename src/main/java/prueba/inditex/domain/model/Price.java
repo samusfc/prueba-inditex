@@ -1,6 +1,7 @@
 package prueba.inditex.domain.model;
 
 import jakarta.persistence.*;
+import lombok.Builder;
 import lombok.Data;
 
 import java.time.LocalDateTime;
@@ -8,6 +9,7 @@ import java.time.LocalDateTime;
 @Entity
 @Table(name = "PRICES")
 @Data
+@Builder
 public class Price {
 
     @Id

@@ -1,10 +1,12 @@
 package prueba.inditex.adapters.dto;
 
+import lombok.Builder;
 import lombok.Data;
 
 import java.time.LocalDateTime;
 
 @Data
+@Builder
 public class PriceRSDTO {
 
     private Long id;
